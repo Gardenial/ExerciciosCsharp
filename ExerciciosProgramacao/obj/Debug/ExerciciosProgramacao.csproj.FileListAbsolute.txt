@@ -1,0 +1,8 @@
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\bin\Debug\ExerciciosProgramacao.exe.config
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\bin\Debug\ExerciciosProgramacao.exe
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\bin\Debug\ExerciciosProgramacao.pdb
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\obj\Debug\ExerciciosProgramacao.csproj.AssemblyReference.cache
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\obj\Debug\ExerciciosProgramacao.csproj.SuggestedBindingRedirects.cache
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\obj\Debug\ExerciciosProgramacao.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\obj\Debug\ExerciciosProgramacao.exe
+C:\Users\gustavo.noliveira7\source\repos\ExerciciosProgramacao\ExerciciosProgramacao\obj\Debug\ExerciciosProgramacao.pdb

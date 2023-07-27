@@ -24,20 +24,31 @@ namespace ExerciciosProgramacao
         public void Coletar()
         {
             Console.WriteLine("Informe um Número: ");
-            this.exercicios.GetSetNum1 = Convert.ToDouble(Console.ReadLine());
+            this.exercicios.GetSetNum1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Informe outro Número: ");
+            this.exercicios.GetSetNum2 = Convert.ToInt32(Console.ReadLine());
+
 
         }//Fim do método Coletar
+
 
         public int Menu()
         {
 
             Console.WriteLine("-------------------MENU-------------------" +
-                "\n 0.Sair" +
-                "\n 1.Dobrar e Triplicar" +
-                "\n 2.Salário 30%" + 
-                "\n 3.Impar Par | Negativo Positivo." + 
-                "\n 4. Soma de um a Cem"  );
-                "\n 5. Tabuada de um número"  );
+                "\n 1.Dobrar e Triplicar"               +
+                "\n 2.Salário 30%"                      + 
+                "\n 3.Impar Par | Negativo Positivo."   + 
+                "\n 4. Soma de um a Cem"                +
+                "\n 5. Tabuada de um número"            +
+                "\n 6. Num Um até Num Dois"             +
+                "\n 7. Impares de Cem a Duzentos"       +
+                "\n 8. Somar Inteiros"                  +
+                "\n 9. Soma de N números"               +
+                "\n 10. Média"                          +
+                "\n 11. Maior e Menor"                  +
+                "\n 12. Vinte Valores"                  +
+                "\n 0.Sair" );
 
 
             int opcao = Convert.ToInt32(Console.ReadLine());
@@ -85,6 +96,28 @@ namespace ExerciciosProgramacao
                         Console.WriteLine("Digite um Número");
                         int n = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine(this.exercicios.Tabuada(n));
+                        break;
+                    case 6:
+                        Coletar();
+                        Console.WriteLine(this.exercicios.NumUmANumDois());
+                        break;
+                    case 7:
+                        Console.WriteLine(this.exercicios.ImparCemDuzentos());
+                        break;
+                    case 8:
+                        Console.WriteLine(this.exercicios.SomaInteiros());
+                        break;
+                    case 9:
+                        Console.WriteLine(this.exercicios.SomaInteiros2());
+                        break;
+                    case 10:
+                        Console.WriteLine(this.exercicios.Media());
+                        break;
+                    case 11:
+                        Console.WriteLine(this.exercicios.MaiorMenor());
+                        break;
+                    case 12:
+                        Console.WriteLine(this.exercicios.VinteInteiros());
                         break;
 
                 }//Fim do Switch...Case

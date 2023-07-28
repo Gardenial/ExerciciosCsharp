@@ -48,6 +48,11 @@ namespace ExerciciosProgramacao
                 "\n 10. Média"                          +
                 "\n 11. Maior e Menor"                  +
                 "\n 12. Vinte Valores"                  +
+                "\n 13. Fatorial De um Número"          +
+                "\n 14. Time de Vôlei"                  +
+                "\n 15. Concurso de Miss"               +
+                "\n 16. Eleitores"                      +
+                "\n 17. Carro Novo"                     +
                 "\n 0.Sair" );
 
 
@@ -119,6 +124,31 @@ namespace ExerciciosProgramacao
                     case 12:
                         Console.WriteLine(this.exercicios.VinteInteiros());
                         break;
+                    case 13:
+                        Console.WriteLine("Digite um Número para ser Fatorado");
+                        n = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine(this.exercicios.Fatorial(n));
+                        break;
+                    case 14:
+                        Console.WriteLine("Digite o Número de jogadoras no time");
+                        n = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine(this.exercicios.TimeVolei(n));
+                        break; 
+                    case 15:
+                        Console.WriteLine(this.exercicios.Miss());
+                        break; 
+                    case 16:
+                        Console.WriteLine(this.exercicios.Eleitores());
+                        break;
+                    case 17:
+                        break;
+                    case 18:
+                        break;
+                    case 19:
+                        break;
+                    case 20:
+                        break;
+
 
                 }//Fim do Switch...Case
 
